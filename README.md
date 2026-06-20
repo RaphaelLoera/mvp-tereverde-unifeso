@@ -5,8 +5,8 @@ Aplicacao web para divulgacao de trilhas, eventos e informacoes sobre parques da
 ## Dados dos Integrantes da Equipe
 
 
-1. 
-2. 
+1. Raphael Correia Soares Loera
+2. Julio Cesar De Souza Geraldo
 
 
 ## Situacao-Problema Escolhida
