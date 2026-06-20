@@ -6,8 +6,7 @@ Aplicacao web para divulgacao de trilhas, eventos e informacoes sobre parques da
 
 
 1. Raphael Correia Soares Loera
-2. Julio Cesar De Souza Geraldo
-
+2. Valdely Da Costa Francisco Junior
 
 ## Situacao-Problema Escolhida
 
