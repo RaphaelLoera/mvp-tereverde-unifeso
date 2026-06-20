@@ -1,4 +1,4 @@
-# Circuito Tere Verde - Front-end (MVP)
+# Circuito Tere Verde 
 
 Aplicacao web para divulgacao de trilhas, eventos e informacoes sobre parques da regiao de Teresopolis, com area administrativa para gestao de conteudo.
 
