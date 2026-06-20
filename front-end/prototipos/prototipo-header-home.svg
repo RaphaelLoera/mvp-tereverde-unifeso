@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Prototipo - Header da Home</title>
+  <desc id="desc">Wireframe do header da pagina inicial do projeto Circuito Tere Verde.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0b1728" />
+      <stop offset="100%" stop-color="#040a12" />
+    </linearGradient>
+    <style>
+      .title { font: 700 30px 'Segoe UI', Arial, sans-serif; fill: #e8f6ef; }
+      .subtitle { font: 500 14px 'Segoe UI', Arial, sans-serif; fill: #9ec2b0; }
+      .label { font: 600 11px 'Segoe UI', Arial, sans-serif; fill: #83d9ac; letter-spacing: 0.08em; }
+      .text { font: 600 13px 'Segoe UI', Arial, sans-serif; fill: #d6f4e3; }
+      .muted { font: 500 12px 'Segoe UI', Arial, sans-serif; fill: #a8c3b6; }
+      .tiny { font: 500 10px 'Segoe UI', Arial, sans-serif; fill: #96afa3; }
+      .btnText { font: 700 11px 'Segoe UI', Arial, sans-serif; fill: #082416; }
+      .btnOutlineText { font: 700 11px 'Segoe UI', Arial, sans-serif; fill: #d8f7e7; }
+      .flow { stroke: #5bcf94; stroke-width: 2; fill: none; marker-end: url(#arrow); }
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#5bcf94" />
+    </marker>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)" />
+  <text x="56" y="62" class="title">Prototipo - Header da Pagina Inicial</text>
+  <text x="56" y="86" class="subtitle">Layout desktop com logo, menu principal, botoes de acesso e menu mobile</text>
+
+  <!-- Header Frame -->
+  <rect x="56" y="130" width="1488" height="300" rx="26" fill="#0f1f33" stroke="#2f5242" stroke-width="2" />
+  <text x="84" y="166" class="label">HEADER CONTAINER</text>
+
+  <rect x="84" y="184" width="1432" height="92" rx="16" fill="#112742" stroke="#365c49" />
+  <text x="102" y="207" class="tiny">Barra superior sticky / backdrop blur</text>
+
+  <!-- Logo Area -->
+  <rect x="106" y="206" width="320" height="48" rx="10" fill="#183653" stroke="#46745d" />
+  <circle cx="132" cy="230" r="15" fill="#1d3b58" stroke="#6ce7aa" />
+  <text x="158" y="226" class="text">Circuito Tere Verde</text>
+  <text x="158" y="243" class="tiny">ecoturismo e gestao</text>
+
+  <!-- Nav Area -->
+  <rect x="460" y="206" width="540" height="48" rx="10" fill="#183653" stroke="#46745d" />
+  <text x="488" y="236" class="text">Inicio   |   PARNASO   |   Tres Picos   |   Montanhas</text>
+
+  <!-- Action Buttons -->
+  <rect x="1028" y="206" width="260" height="48" rx="10" fill="#183653" stroke="#46745d" />
+  <rect x="1046" y="216" width="102" height="28" rx="14" fill="#6ee7a8" />
+  <text x="1080" y="235" class="btnText">Entrar</text>
+  <rect x="1162" y="216" width="106" height="28" rx="14" fill="#1a3348" stroke="#5bcf94" />
+  <text x="1195" y="235" class="btnOutlineText">Painel</text>
+
+  <!-- Mobile Button -->
+  <rect x="1320" y="206" width="64" height="48" rx="10" fill="#183653" stroke="#46745d" />
+  <text x="1344" y="236" class="text">☰</text>
+
+  <!-- Mobile Menu Mock -->
+  <rect x="84" y="292" width="420" height="120" rx="12" fill="#112742" stroke="#365c49" />
+  <text x="102" y="314" class="tiny">Menu mobile (quando aberto)</text>
+  <rect x="102" y="324" width="384" height="20" rx="6" fill="#173452" stroke="#3d6753" />
+  <rect x="102" y="350" width="384" height="20" rx="6" fill="#173452" stroke="#3d6753" />
+  <rect x="102" y="376" width="384" height="20" rx="6" fill="#173452" stroke="#3d6753" />
+
+  <!-- Notes -->
+  <rect x="540" y="292" width="976" height="120" rx="12" fill="#112742" stroke="#365c49" />
+  <text x="560" y="316" class="label">Requisitos contemplados</text>
+  <text x="560" y="338" class="muted">- Navegacao publica entre as paginas principais</text>
+  <text x="560" y="358" class="muted">- Entrada para autenticacao e area administrativa</text>
+  <text x="560" y="378" class="muted">- Adaptacao para dispositivos moveis (menu hamburguer)</text>
+  <text x="560" y="398" class="muted">- Identidade visual consistente com a Home</text>
+
+  <!-- Flow legend -->
+  <rect x="56" y="470" width="1488" height="360" rx="26" fill="#0f1f33" stroke="#2f5242" stroke-width="2" />
+  <text x="84" y="506" class="label">Fluxo do header</text>
+
+  <rect x="110" y="534" width="250" height="70" rx="12" fill="#15324d" stroke="#4a765f" />
+  <text x="138" y="564" class="text">Clique no logo</text>
+  <text x="138" y="584" class="tiny">Volta para / (Home)</text>
+
+  <rect x="430" y="534" width="280" height="70" rx="12" fill="#15324d" stroke="#4a765f" />
+  <text x="458" y="564" class="text">Clique nos links</text>
+  <text x="458" y="584" class="tiny">Navega para paginas de parques</text>
+
+  <rect x="780" y="534" width="250" height="70" rx="12" fill="#15324d" stroke="#4a765f" />
+  <text x="808" y="564" class="text">Botao Entrar</text>
+  <text x="808" y="584" class="tiny">Vai para /login</text>
+
+  <rect x="1100" y="534" width="320" height="70" rx="12" fill="#15324d" stroke="#4a765f" />
+  <text x="1128" y="564" class="text">Painel / Menu mobile</text>
+  <text x="1128" y="584" class="tiny">Admin (se autorizado) / menu responsivo</text>
+
+  <path class="flow" d="M 360 569 L 430 569" />
+  <path class="flow" d="M 710 569 L 780 569" />
+  <path class="flow" d="M 1030 569 L 1100 569" />
+
+  <text x="56" y="872" class="tiny">Arquivo de prototipacao: docs/prototipo-header-home.svg</text>
+</svg>
